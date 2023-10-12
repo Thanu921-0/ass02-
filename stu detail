@@ -1,0 +1,23 @@
+#program to generate the student details
+sno=int(input("enter the stu no:"))
+sname=input("enter the stu name:")
+group=input("enter the group name:")
+s1=int(input("enter the java marks:"))
+s2=int(input("enter the os marks:"))
+s3=int(input("enter the accounts marks:"))
+total=s1+s2+s3
+print("total:",total)
+avg=total/3
+print("avg:",avg)
+if (avg>90):
+    print("O grade")
+elif(avg>80):
+    print("A grade")
+elif(avg>70):
+    print("B grade")
+elif(avg>60):
+    print("C grade")
+elif(avg>50):
+    print("D grade")
+else:
+    print("pass")
